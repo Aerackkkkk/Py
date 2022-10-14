@@ -1,7 +1,5 @@
-x,y,z="Anjal","Thapa","Aerackk"
-def myfunc():
-    x="Aerack"
-    print("Hello World, my name is", x +"my surname is", y +"and my nickname is", y)
-myfunc()
-print("Hello World, my name is", x )
-
+name = input("Enter your name:")
+Address = input("Enter your address:")
+Age = input("Enter your age:")
+contact = input("Enter your number:")
+print(f"Hello {name},your address is {Address},your age is {Age} and we may contact you on {contact}.")
